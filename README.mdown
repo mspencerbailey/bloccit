@@ -1,0 +1,3 @@
+"A practice Reddit clone to demonstrate foundation programming."
+
+I made this!
