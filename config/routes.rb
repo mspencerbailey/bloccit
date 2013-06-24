@@ -1,5 +1,5 @@
 Bloccit::Application.routes.draw do
-  resources :posys
+  resources :posts
 
   match "about"  => 'welcome#about', via: :get
 
