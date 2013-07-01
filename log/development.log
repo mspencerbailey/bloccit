@@ -1,0 +1,881 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2013-06-18 14:13:58 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (42.0ms)
+Compiled welcome.css  (20ms)  (pid 2024)
+Compiled application.css  (50ms)  (pid 2024)
+Compiled jquery.js  (1ms)  (pid 2024)
+Compiled jquery_ujs.js  (0ms)  (pid 2024)
+Compiled welcome.js  (510ms)  (pid 2024)
+Compiled application.js  (596ms)  (pid 2024)
+Completed 200 OK in 886ms (Views: 885.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-18 14:13:59 -0700
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-18 14:13:59 -0700
+Served asset /welcome.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-18 14:13:59 -0700
+Served asset /jquery.js - 200 OK (28ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-18 14:13:59 -0700
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-18 14:13:59 -0700
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-18 14:13:59 -0700
+Served asset /welcome.js - 200 OK (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-18 14:30:29 -0700
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-18 14:32:16 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-18 14:32:16 -0700
+Served asset /welcome.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-18 14:32:17 -0700
+Served asset /jquery.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-18 14:32:17 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-18 14:32:17 -0700
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-18 14:32:17 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-18 14:32:17 -0700
+Served asset /welcome.js - 304 Not Modified (3ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2013-06-19 09:55:33 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 297ms (Views: 297.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-19 09:55:34 -0700
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-19 09:55:34 -0700
+Served asset /jquery.js - 200 OK (23ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2013-06-19 09:55:34 -0700
+Served asset /welcome.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-19 09:55:34 -0700
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-19 09:55:34 -0700
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2013-06-19 09:55:34 -0700
+Served asset /welcome.js - 200 OK (0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2013-06-19 09:55:39 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2013-06-19 09:55:41 -0700
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2013-06-19 09:55:43 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (353.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (45.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePosts (20130619173519)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (188.0ms)[0m  [1mCREATE TABLE "posts" ("id" serial primary key, "title" character varying(255), "body" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (2.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130619173519')
+  [1m[36m (18.0ms)[0m  [1mCOMMIT[0m
+Migrating to CreateComments (20130619173614)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (18.0ms)[0m  [1mCREATE TABLE "comments" ("id" serial primary key, "body" text, "post_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (6.0ms)[0m  CREATE INDEX "index_comments_on_post_id" ON "comments" ("post_id")
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130619173614')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (47.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (198.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Id et sed enim voluptatem quisquam eligendi. Soluta asperiores modi porro. Sed cum sint nesciunt voluptas ratione.\nNisi ullam harum reprehenderit. Id neque quia qui voluptas dolor. Sed praesentium omnis.\nVelit minus beatae sint voluptatem maxime. Non occaecati error tenetur animi ducimus qui. Soluta hic animi laborum perspiciatis praesentium ut illum. Eveniet nihil rerum quasi sint quidem earum."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["title", "ipsa culpa distinctio iste sunt"], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (107.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (58.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Necessitatibus expedita molestiae dolorem est. Quidem aut unde voluptatem tempore repudiandae. Perspiciatis veniam sed beatae id occaecati ratione ullam. Error laudantium officia.\nSed saepe blanditiis nesciunt fuga explicabo quia laborum. Ad corporis autem aliquam soluta. Qui minima dolor."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 2], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Nesciunt delectus quibusdam et deserunt voluptatem nostrum. Commodi dolorem iusto culpa. Praesentium sed fugiat facilis et pariatur molestiae voluptatibus. Sequi sit nobis.\nAutem vel est placeat aut ea ab reiciendis. Ut dolorem facere non praesentium. Adipisci non distinctio aut. Repellendus ut impedit alias. Id aut veritatis itaque eum alias animi amet."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 2], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Tempore dicta adipisci aliquid facere saepe et. Quo quaerat qui. Modi odit ex doloribus in rerum reiciendis voluptatem. Aspernatur aut consequatur. Voluptates totam aliquam illum vitae nostrum.\nEum ipsum minima dolorem hic qui assumenda nobis. Nemo molestias distinctio vel voluptatem est id commodi. Et inventore numquam vel fugit et pariatur. Quod et incidunt harum possimus."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 2], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Ut illo est qui molestiae quidem. Rerum repellendus ipsum incidunt optio eum. Mollitia maxime vero laboriosam earum quibusdam eius iure. Ut autem ab. Animi id reprehenderit.\nCulpa doloremque velit incidunt consequuntur. Ut impedit numquam molestiae nesciunt. Itaque et perferendis sunt neque dolor eaque eos.\nMinus aliquid voluptas distinctio cupiditate repudiandae qui enim. Non in laboriosam enim eligendi dolor. Temporibus repellat delectus impedit in a magnam. Sunt similique sit.\nAutem eveniet consequatur id. Aspernatur ipsa fugit et nisi nesciunt iure non. Necessitatibus veniam fugiat. Doloribus sint perspiciatis voluptatem dicta repellendus. Quis ullam nihil cumque eligendi in libero quia."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["title", "dolores dolor laborum quibusdam sed"], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Soluta voluptas nemo unde qui recusandae tempore. Ex suscipit et. Molestias aut et officiis similique. Autem voluptatem labore ab totam ea iure.\nEt pariatur nemo blanditiis illum et. Odio repudiandae similique quia. Velit qui molestiae. Accusamus dolore iure quas a sed enim."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 3], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Id eligendi et nam et praesentium harum. Hic culpa sunt repellendus sit porro. Totam laborum error facilis et.\nAlias quas quis labore tenetur modi et. Repudiandae laboriosam rerum iusto. Facilis officia quisquam rerum recusandae sit molestiae sint. Fuga blanditiis officia veniam. Consequatur et dolores velit debitis eligendi et et."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 3], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Quibusdam fuga qui molestias ut sint eligendi et. Eum ut ipsum animi nostrum sequi et ea. Natus eligendi ea inventore aliquam fugit. Cumque nihil aut. Qui voluptatem voluptatem qui."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 3], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Consectetur pariatur iste nemo reprehenderit ut labore. Ut iste quis. Aut natus vitae nihil delectus culpa ex. At et nostrum in fugiat autem.\nBlanditiis expedita ab architecto. Ipsa velit sunt voluptate in expedita aut. Tempora provident quis. Nemo ut perferendis ipsum voluptates. Cupiditate assumenda explicabo nemo quidem repellat molestiae nam."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 3], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Eos error quo suscipit possimus occaecati. Fugiat qui qui ad in. Iste sequi a ut ut. Est quod magnam error dolorem culpa maiores. Iusto ea repellendus possimus."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 3], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Exercitationem illum vel rerum libero totam corporis. Tempore neque nisi corrupti et. Voluptas ipsa totam. Facere non id aut assumenda consequuntur ipsam.\nEveniet asperiores porro similique. Et nemo recusandae. Unde distinctio ipsum voluptas quo ratione et est."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 3], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Rerum placeat et. Sint unde eius dolor voluptates officia in et. Vel ea quas accusamus sed nam.\nId nisi quod itaque a sequi et suscipit. Aut quia debitis praesentium. Voluptatem eos dolores voluptate voluptatem. Harum reprehenderit voluptatem."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 3], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Porro in itaque veritatis dolores et aspernatur consequatur. Et dolorem possimus qui eveniet ex consequatur sed. Rerum aut dolore hic eos.\nPerspiciatis natus quae sed ducimus laboriosam. Ea molestiae ipsam vel labore qui officia ullam. Tempore incidunt occaecati officia commodi molestiae consequatur. Voluptatem ut eius. Earum est porro eum ad unde et veniam."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 3], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Omnis sequi vitae quo laboriosam corporis architecto. Rerum blanditiis sunt dolorum fugit et corrupti illo. Eius sed nobis praesentium et alias ea facere. Quia rerum qui placeat.\nUt libero hic. Qui saepe cum aut quos occaecati qui. Et qui dolorum ipsam. Quae adipisci ea. Qui commodi quasi quia corporis omnis omnis labore."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["title", "odio qui ducimus nam et"], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Eaque debitis aut. Asperiores et aut omnis nesciunt quisquam. Odit minima magnam aut ea aut. Ratione sunt exercitationem illum quo perspiciatis doloribus."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 4], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Sunt nobis dignissimos id. Facilis aperiam quasi. Quam reiciendis perferendis quisquam quia."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 4], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Et harum error. Asperiores possimus deserunt. Illum molestiae fugiat qui nam provident.\nIn saepe et occaecati repellat facere rerum odio. Quae incidunt iusto. Consequatur aut sed sed officiis. Voluptas voluptatibus ut ut doloremque voluptate animi. Et dolorem libero voluptate quasi."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 4], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Ut quaerat sed. Eligendi omnis est. Et qui eum itaque debitis. Autem veritatis quae. Cupiditate necessitatibus repudiandae.\nQuae explicabo quis est tempore dolorum repellat nostrum. Et doloremque error molestiae. Commodi et provident consectetur. Repellendus totam placeat excepturi inventore laboriosam et. Quis nobis sint."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 4], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Qui laudantium porro. Eos maxime impedit. Est autem vel placeat quis suscipit deserunt."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 4], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Assumenda sunt eum sapiente impedit aperiam. In odit quod unde vel dolorem cupiditate sequi. Dolore soluta officia sint quidem. Ut rerum et commodi dolore placeat ut.\nVel nisi architecto iusto laudantium eius voluptas. Consequuntur vitae deserunt velit. Id quod eius laboriosam dolor culpa. Ut modi pariatur qui ducimus."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 4], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (3.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Voluptas ut aut et. Officia ut repellat. Ut ab quod vero unde cumque quidem commodi. Recusandae vel et veniam neque quia. Repellat rerum officiis omnis quod velit.\nRepudiandae molestiae aut tenetur sapiente. Inventore sunt cumque est quo voluptatem itaque eius. Iusto enim dolorem officiis."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 4], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Expedita et laborum aperiam. Voluptates aliquid consequatur id veritatis. Et quia et voluptatem aut doloribus quasi cum. Sed necessitatibus earum aut nemo consequuntur ullam. Est ipsam ut."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 4], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Molestias accusantium voluptates ea minus dolores quia. Autem nihil velit repellendus quam unde quisquam. Dolor doloremque temporibus magni labore modi. Nulla voluptas inventore quasi qui.\nEt voluptatem in voluptas commodi quis qui repellendus. Mollitia eum iste aspernatur magni blanditiis tempora. Illo voluptatum aut velit tempore ea corrupti non. Iure esse nostrum cum consequatur reprehenderit nisi non. Excepturi ipsam accusantium est dignissimos deleniti doloribus velit."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["title", "aut"], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Porro voluptatum optio earum omnis facere sit. Quia asperiores assumenda doloribus eos est recusandae. Aut non ad unde."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 5], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Vitae qui recusandae sint autem. Nam aut nemo omnis harum debitis quis sunt. Sed ratione harum quos ad vero voluptatibus. Et accusamus nesciunt doloremque accusantium facere voluptatem repudiandae. Vel recusandae sequi eum id sed."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 5], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Ad aut non harum rerum non aut. Praesentium dolorum velit ullam assumenda esse quasi sed. Consectetur qui nisi. Minima a dignissimos libero eos optio. Est incidunt repellat impedit eos.\nRerum atque totam sint. Ut reprehenderit ut ea est delectus velit. Beatae dolorem sit consequatur. Explicabo voluptatem dicta et voluptatum qui sapiente."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 5], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "In atque illo voluptates. Animi expedita libero. Id perspiciatis voluptas quis et voluptates quod. Tempore velit sint qui est magnam dolor ea.\nUt voluptas rem et consequatur quidem quia. Vel recusandae aliquid magni. Voluptas aut cum. Quia nam quos est voluptatem corporis sit facilis.\nEnim itaque possimus est ab. Aut natus esse nesciunt. Est vitae nesciunt minus. Facere deleniti sit eos error delectus vero eos. Nulla perspiciatis dolore facilis sint."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["title", "quia nostrum ipsum velit et voluptatem voluptatem suscipit"], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Perferendis sed similique non. Eos vitae ut. Debitis tempora cupiditate hic dolor aut rem saepe.\nExcepturi incidunt ab esse sit. Exercitationem alias id atque soluta et quod et. Commodi recusandae libero. Nemo eos maiores."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 6], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Corporis eaque commodi eveniet. Harum dolore animi quis et aliquam omnis. Itaque adipisci enim."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 6], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Consequatur deserunt aliquid qui consequuntur vel esse. Sint officiis aut molestiae sint qui. Ex mollitia rerum. A consectetur rerum ipsa consequatur."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 6], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Sapiente molestiae nihil voluptas. Aspernatur qui error temporibus. Impedit aut voluptatem ut occaecati. Aperiam quo et.\nVelit aut quam earum ut consequatur dolores. Dicta officia voluptas repellat. Libero tempora sit ipsum voluptatem. A consectetur molestiae eum.\nVero vel voluptatem optio dolorem esse. Voluptatibus vel exercitationem velit iure cupiditate dolorum sit. Ut dolore rerum occaecati omnis tempore ut. Quasi molestias dolore qui.\nLabore sed distinctio deleniti. Eos qui velit nulla. Dicta ea sunt. Doloremque praesentium nisi id repellendus. Odio in minus ut laboriosam."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["title", "aut"], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Voluptas amet vel in rem mollitia neque. Non quis dolore. Corporis perspiciatis qui ut at delectus ratione."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 7], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Voluptas et aperiam. Fugit consequatur est facere a similique et. Voluptatem voluptatem non."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 7], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (13.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Consequuntur aut porro ullam molestias officiis. Quis vitae aspernatur vel ut. Consequatur ratione vero eaque enim similique ullam. Dolorem est quia fuga hic officia."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 7], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Rerum totam in fugiat nihil dolor excepturi perspiciatis. Tempora quia neque magni inventore esse. Nihil rerum et. Quasi eaque ad nisi amet. Fugit dolor ut commodi.\nVeritatis labore nulla nobis sint id. Impedit ullam ab. Aliquam qui sed occaecati atque commodi totam cupiditate. Repellendus est et."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 7], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Et vel vel adipisci nihil qui enim consequatur. Quis possimus eligendi dolores natus. Omnis quam quaerat. Non distinctio exercitationem quasi recusandae. Ipsam sed iusto maxime non."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 7], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Inventore hic eius consectetur aut quaerat et. Nesciunt natus ipsam id vero aut. Vel dolorem atque omnis sed delectus dicta. Quaerat expedita quae quis.\nQuibusdam aut ipsum nihil. Libero ipsum esse. Exercitationem quidem in animi qui reprehenderit quo quo."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 7], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Tenetur qui sed sunt distinctio quia consequatur consectetur. Quasi explicabo et itaque consequuntur est. Est aliquid repudiandae dolorem non.\nPossimus enim quasi et repellendus corporis hic doloribus. Nihil recusandae optio sint porro. Tempora sit enim pariatur.\nSint deleniti quam repudiandae et nisi modi. Et quia facere. Eos laborum nemo nihil. Excepturi voluptatem dolorem voluptatibus.\nIpsum vero maxime nostrum. Ea sunt quo expedita aut. Deserunt quo delectus et voluptates magnam ab non. Pariatur animi ullam omnis et eius totam suscipit. Voluptatem non esse ut accusantium."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["title", "aut illo suscipit eveniet velit occaecati aliquid et asperiores"], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Sint blanditiis voluptate aut ex autem laborum. Molestiae eveniet soluta inventore ut ea. Itaque enim nihil. Ut dolores dicta ratione incidunt qui sit. Necessitatibus eligendi nobis.\nAb quod reiciendis corrupti qui consectetur qui quo. Dicta debitis accusamus quia tenetur fuga facilis. Quasi in numquam omnis reprehenderit quo doloribus autem. Sint vitae placeat qui maiores qui. Sunt voluptatum qui placeat quas."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 8], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Quibusdam porro accusantium eligendi. Nihil consequatur quis suscipit itaque officia. Quidem sed cumque. Consequatur voluptatem voluptate et iusto perspiciatis ipsum hic. Harum fuga provident rem est vel nihil cumque."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 8], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Reiciendis repudiandae vitae quia rem cum. Accusamus sit ut labore dolorem consequatur. Maxime similique quo incidunt."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 8], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Nihil error aperiam voluptatem numquam consequatur. Sit aut enim rerum. Accusamus voluptas sapiente.\nQui facilis aut. Aliquam natus consequuntur enim omnis. Delectus deleniti ipsam placeat aut sunt. Rerum optio voluptatem inventore. Aut pariatur excepturi labore magni eligendi aliquid."], ["created_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00], ["post_id", 8], ["updated_at", Mon, 24 Jun 2013 14:15:13 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Architecto aut et odit voluptatem. Delectus eos quia consequatur et enim. Aspernatur qui numquam saepe rerum omnis cupiditate. Et quia nesciunt temporibus in aut.\nDeserunt eveniet facilis est itaque quo sequi ut. Ad sint est. Minus voluptatum quis at. Quia distinctio recusandae. Aperiam quia qui explicabo."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "reprehenderit dignissimos tempora voluptatem magni impedit"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Asperiores laudantium officiis placeat. Rerum ducimus autem. Aperiam officia nostrum nam voluptas enim cumque aut.\nIllo id repellat animi. Deleniti dolorum laboriosam aut ea autem eum. Aut a qui quam quae non ea ut. Saepe voluptate libero dolorem."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 9], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Nobis fuga consectetur dignissimos nihil. Id dolores eum iste. Ducimus in esse ea similique quasi expedita. Laudantium est ipsam quibusdam perferendis. Autem facere facilis ex.\nFugiat voluptatem neque perspiciatis ipsam aut excepturi. Aut quibusdam molestiae fugit. Veritatis non sit et ad. Voluptates reiciendis illum. Nulla voluptatum molestias."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 9], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Qui sed est quidem nam est. Et quaerat distinctio dolorum. Voluptatum accusantium repellat expedita sunt incidunt."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 9], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Harum error rerum. Tempore optio voluptatem. Non corporis deserunt expedita facilis magni qui maxime. Quis eum soluta expedita. Voluptatum rem sed.\nIllum ut vitae amet non ipsam. Saepe sed aspernatur enim natus ad. Nihil quasi laborum ipsum molestias ut sit quae."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 9], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Debitis quas dolore. Corporis est quidem fugiat quia. Omnis tempora autem voluptatem saepe vero. Illum vel blanditiis veritatis quis aut."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 9], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Ipsum quidem aut at aliquam cum id. Et voluptatibus laboriosam. Aut et officiis.\nDoloremque consequatur aliquam. Perspiciatis ut in voluptatum. Nesciunt vero enim voluptate veniam. Perferendis et velit eveniet sint maiores et. Quis dolorem perspiciatis ipsa ut."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 9], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Velit quam et debitis nemo quia repudiandae. Minima ut error. Aut asperiores aliquam. Nulla cupiditate laboriosam tenetur nihil porro in voluptatem. Quo qui ratione.\nA impedit quam odio reiciendis. Velit dignissimos ducimus blanditiis et fugiat. Eligendi iusto corrupti aspernatur qui explicabo impedit qui.\nNam quisquam soluta a cumque ducimus. Libero qui sed voluptas autem maxime non praesentium. Et quod quam est autem."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "qui praesentium voluptate consectetur"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Suscipit ex fugit reprehenderit rerum quasi qui. Sint earum quae id sunt ea beatae nihil. Necessitatibus assumenda eaque."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 10], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Soluta dolor eaque ab dicta. Et dolor quos dolorem est deleniti. Corporis fugiat voluptatibus qui harum.\nLibero eos placeat quo porro omnis. Autem aliquam tempora quasi asperiores. Dolorem velit quo est facilis ipsum sed temporibus."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 10], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Tenetur laudantium a rem quasi totam et. Quod omnis aut. Quibusdam delectus rerum molestiae laboriosam."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 10], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Nam minus laborum. Voluptate molestiae ea. Quidem quae iusto dolores sed hic dolores temporibus.\nEaque necessitatibus autem consequuntur iusto maxime nam hic. Voluptatem neque ipsam explicabo inventore rerum et. Quae ipsam dolores itaque quia."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 10], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Dicta aliquam vitae. Autem maxime expedita atque. Ullam similique laudantium non totam.\nEt ad aspernatur expedita dolor pariatur illo quo. Dolor in reiciendis. Saepe nisi quam unde asperiores. Quo dolor nam voluptatem autem commodi quis."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 10], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Tempore porro nesciunt similique accusantium eum accusamus. Dolor voluptatem ab. Repellendus non ipsa similique voluptates magnam. Necessitatibus facere ut. Explicabo quibusdam mollitia autem voluptatem sunt."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 10], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Et animi aut aspernatur dolor blanditiis itaque. Cum aliquam ab sit fuga doloribus aperiam rerum. Sint facilis et dolor est iste ullam accusamus. Sit exercitationem quis. Sit unde debitis fuga quibusdam enim."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 10], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Consectetur saepe officiis nesciunt. Tempora exercitationem vel rerum nam. Esse explicabo architecto nemo est. Ex reprehenderit occaecati quia quisquam. Illo repudiandae quia tenetur.\nEst quod consectetur. Neque rem odio aut. Odit rerum sint non illo distinctio."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 10], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Placeat magnam quas consectetur illo perspiciatis ut. Est qui libero vero magnam. Quae doloribus maiores."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 10], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Corrupti nobis quis aliquam eum eos quisquam numquam. Incidunt quo consequatur reiciendis consectetur autem omnis. Dolor dolores dolore.\nEt ut officia aut sapiente et. Aut eligendi aliquid veritatis neque tempora harum odio. Natus eos est. Saepe quibusdam consequatur iure quia minus. Quam fugit aperiam.\nAutem perferendis praesentium. Et necessitatibus asperiores. Id qui perferendis officia impedit sunt ut vero.\nQuos commodi atque. Aspernatur rerum quam voluptatem consectetur consequatur possimus sunt. Ea in qui suscipit."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "similique"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Sint eaque est consequuntur quo neque iusto. Quasi laudantium ex autem. Dolor amet aliquam officia molestiae animi voluptate. Natus labore sunt repellendus velit architecto.\nQui earum molestias. Officia voluptas reiciendis. Quae autem veritatis rerum. Praesentium unde est expedita aliquid magnam adipisci excepturi. Architecto ut nostrum molestiae."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 11], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Sed dolorem voluptas et dignissimos similique autem ratione. Qui est qui voluptas ut. In aut itaque non id dolorem. Aspernatur voluptatem consectetur quam est architecto excepturi harum. Labore dolor ut.\nFacilis maxime ducimus qui recusandae earum quas. Commodi aut aperiam eius earum provident. Vero eaque quo labore neque reiciendis. Molestiae velit ea."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 11], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Ratione porro eos non similique repellendus cumque reprehenderit. Natus voluptatem ut. Voluptatibus vel sapiente sed nisi totam corporis laudantium. Eligendi doloribus alias consequatur animi accusamus.\nModi earum molestias ut voluptatum voluptate maxime. Sunt molestias officia. Suscipit cumque quos natus mollitia sed tempora."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 11], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Iusto recusandae ea hic. Fuga quia occaecati quia porro. Animi non quidem consectetur inventore quis. Autem ea rerum beatae voluptas et. Sunt fugiat aliquid officia."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 11], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Earum odit temporibus vero quaerat fuga sunt magni. Possimus est aut voluptas dolorem modi omnis. Aliquid quasi harum sed et ipsa. Eaque omnis quisquam ipsa nam. Iure in quas mollitia a fugit inventore."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "a"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Repellat rerum voluptatibus quis dolores et consectetur aliquam. Quam nulla et. Itaque et porro eos totam ut veritatis.\nQuisquam repellendus laudantium est qui dolorem odio neque. Voluptatem consequatur quas eligendi voluptates sed. Laudantium eaque rem blanditiis voluptas qui. Voluptates distinctio possimus in molestias."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 12], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Vel velit nobis aut est nesciunt. Minus qui id officiis cum et temporibus placeat. A officiis nisi dolores esse.\nAut non suscipit ipsa ut itaque. Harum est omnis labore ab. Nemo quod nostrum magni atque. Dolorum et nesciunt officiis praesentium. Voluptates cum sed similique voluptatem ipsa."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 12], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Ea harum et ad omnis earum. Qui nisi aspernatur ut molestiae. Sunt iusto distinctio itaque delectus.\nQuasi vitae officiis rerum omnis harum vel sit. Ratione commodi dolorum dolore aut asperiores. Deleniti molestiae quo repellat eos aperiam."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 12], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Eum recusandae sed. Ipsa quia ducimus vero est occaecati. Asperiores nisi et.\nInventore consequuntur deserunt. Quia omnis est. Quibusdam quas quasi eveniet dolorem doloribus quae. Inventore non est deserunt aliquid aut."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 12], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Fugit labore eum autem. Non ut facere ullam porro eum. Ad laborum odio soluta incidunt totam repellat quia. In dolor atque doloremque quibusdam magnam debitis. Excepturi officia at aut id perspiciatis.\nFuga sit ut ut reprehenderit. Temporibus non rerum voluptas velit. Est et necessitatibus voluptas incidunt nobis fugiat. Est dicta ea ad eum.\nUllam quo consequuntur commodi. Qui enim quidem est. Voluptas et reprehenderit laboriosam reiciendis fugiat ea error.\nUt nihil illum saepe magnam totam mollitia. Sit nulla illum. Tempora molestiae excepturi rem suscipit incidunt."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "commodi quia ducimus voluptas dicta quis quisquam"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Laborum repellendus vero quis ipsum perferendis quibusdam rem. Et neque veritatis. Rerum alias non ut. Eaque ut aut. Dignissimos hic dolore quia.\nAut et modi facere iure eveniet quo. Est itaque quam saepe amet ipsam. Pariatur qui sit. Repellat tempora culpa aperiam expedita labore."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 13], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Et rerum sequi magnam nobis. Soluta nostrum vero. Accusamus consectetur ut animi nostrum. Iusto ut et omnis quis eius.\nMaiores ab aut. Repellat magnam perferendis est. Modi dolores earum adipisci."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 13], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Sed alias distinctio. Ducimus provident excepturi quia et voluptate molestiae. Veritatis dolorum et non eligendi."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 13], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Nulla recusandae repellendus accusantium qui. Aut nihil voluptate repellat sed necessitatibus. Sapiente porro et dolor."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 13], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Expedita minus est quasi deleniti ad consequatur. Tempore ipsam id molestiae. Nostrum placeat sunt blanditiis.\nVel vitae exercitationem sed. Assumenda similique quo ea aut cumque. Reprehenderit nesciunt sit sed id ullam. Sed voluptatum perferendis consequuntur doloremque."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 13], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Consequatur autem aut ut fugit consectetur distinctio. Occaecati debitis quia enim ex. Est cumque id quasi id nostrum culpa animi. Impedit doloribus ut. Doloribus eum placeat ipsum nam hic.\nQuis occaecati voluptatem adipisci quia omnis. Dolorem sed et laboriosam fugit. Quasi velit expedita vel exercitationem repudiandae corporis. Velit cumque officiis dolorem eaque non et.\nOmnis quam voluptatibus odio voluptate exercitationem quod recusandae. Id ratione doloribus perspiciatis earum quia. Et nam quae doloremque aliquid. Dolores reiciendis tempore et ut deleniti. Ut autem esse omnis ipsum qui.\nOdit ab impedit esse deleniti et nemo et. A aut dicta atque ipsum nihil quia aut. Tempora dolorem animi sed nulla dicta nam omnis."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "id nostrum perspiciatis corporis in molestias quisquam aut aut nam"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Adipisci possimus quas. Quia dolorum sunt nisi corrupti officiis. Omnis pariatur vitae dicta enim. Dolorem est qui. Vel nobis dolore ducimus quae atque.\nIncidunt temporibus optio ipsa quia. Illum delectus corrupti reprehenderit natus sit deleniti ea. Commodi natus non. Velit ducimus blanditiis debitis fuga quia explicabo. Occaecati ab distinctio placeat eaque voluptatem aut ut."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 14], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Consectetur beatae explicabo est ut aspernatur voluptate. Et doloribus quae consequatur doloremque asperiores dolore. Quis itaque maiores qui."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 14], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Necessitatibus eum et quis perferendis nulla. Pariatur adipisci autem excepturi officia. Alias quibusdam aut. Dolores laborum voluptatem dolorem."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 14], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Hic a perspiciatis delectus velit mollitia pariatur doloremque. Eum aut dolorum dolores dolore. Corporis at odio sed. Excepturi hic quis. Possimus expedita reiciendis saepe consequatur quo.\nEa quae ullam laudantium laborum aliquid. Odio quia et quod dolor dolores commodi. Perferendis quis doloribus praesentium nihil sunt natus. Placeat neque minus quo."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "neque dolore pariatur optio provident fugit"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Tenetur rem ipsum fugiat corrupti molestiae voluptas recusandae. Eaque ut dolor doloremque nisi voluptatibus ipsum. Molestias vel veritatis. Exercitationem dolorem cupiditate error odit et. Beatae recusandae omnis.\nCulpa mollitia quibusdam voluptatem neque. Dicta reprehenderit sit officia placeat ipsam deserunt quasi. Odio beatae vel quas optio veniam pariatur explicabo. Nemo et veniam ullam non."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 15], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Omnis accusantium asperiores nostrum vitae veniam quia et. Numquam non enim earum. Qui saepe error fugiat numquam explicabo.\nRerum doloribus iusto corrupti omnis. Et nisi ipsam officiis sint harum sed. Laborum aut voluptate. Quia quia et perspiciatis possimus rerum sit. Officiis voluptas repellendus aliquid fugiat omnis."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 15], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Necessitatibus rerum recusandae. Exercitationem voluptas recusandae. Ea debitis ad et. Quia perferendis eos quis at occaecati sit corporis."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 15], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Pariatur asperiores voluptates vel minima. Cumque reprehenderit blanditiis deserunt nihil in omnis voluptatem. Est quos porro veniam explicabo. Molestiae id id ut quia cum libero. Distinctio doloremque consequatur ut amet numquam.\nAsperiores consequatur accusamus qui consequuntur labore ut iure. Omnis maxime tenetur error qui dolor cum et. Odio necessitatibus iusto atque dolorum delectus. Consequatur earum harum incidunt reiciendis impedit."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 15], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Alias voluptatem blanditiis eum facilis tempore est non. Et asperiores quis. Ut in et. Reiciendis non laudantium accusantium neque est. Consequuntur doloribus et vel dolor."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 15], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Cupiditate facere nobis voluptatum aspernatur earum sapiente. Sed ipsa omnis officia excepturi quis. Dolore saepe temporibus autem est dolor. Facilis culpa ab repellat. Culpa ratione quis vero omnis accusantium nihil et."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "alias molestiae consequatur aliquid sit"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Temporibus iusto veritatis cupiditate quasi quis accusamus animi. Qui tempore ut provident pariatur necessitatibus repudiandae repellendus. Assumenda consequatur ut labore iusto amet ut. Deleniti est quisquam rerum laboriosam qui occaecati. Quia et ut sint nihil et similique tempora."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 16], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Sapiente consectetur nobis. Voluptatibus nesciunt voluptatem neque dolor quia fugiat. Sapiente eum quas laboriosam ex eveniet. Blanditiis ratione placeat maiores tempore ut. Voluptatibus nostrum quasi."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 16], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Nam suscipit voluptatem sequi et magni eaque et. Ut nihil aperiam culpa tenetur. Ipsum in sequi blanditiis molestiae.\nVel harum nihil voluptatibus nulla et doloribus. Sit excepturi ipsam dolorem veritatis itaque ea. Earum ea neque ducimus. Nobis consectetur quibusdam a."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 16], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Alias perferendis atque cumque voluptates sed in omnis. Vero illum dolor labore. Non repellendus reiciendis non impedit pariatur quo. Error voluptatem voluptas.\nNesciunt et beatae et dolorum quidem saepe autem. Nihil et vitae culpa. Consequatur eos inventore quia dignissimos et fugiat reprehenderit. Amet ex facere non et eum sunt. Consectetur neque vitae est."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 16], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Possimus velit sit eaque quam. Blanditiis ducimus quisquam voluptatem optio. Velit dolor distinctio aperiam qui. Consequatur voluptatem laudantium eveniet blanditiis aut.\nDolor velit velit. Vitae sunt et ut sint voluptas delectus. Odio sunt qui excepturi. Incidunt beatae nihil rerum."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 16], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Molestias officia aut est enim consequuntur sed. Non suscipit impedit quidem enim libero voluptas. Pariatur animi ipsam quam."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 16], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Sapiente quaerat eos dolorum exercitationem nisi molestiae nobis. Sit hic et voluptate necessitatibus eum. Id nulla dignissimos in iusto aut. Optio dolores omnis explicabo."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 16], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Doloribus voluptatem quo tempore et odio. Labore sit temporibus sed sequi numquam cum. Est recusandae distinctio expedita consequatur dolorum soluta. Maxime in eum voluptatem labore. Nesciunt repellat velit voluptatem consequatur odit et delectus."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 16], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Et aliquam accusamus voluptates necessitatibus ducimus laudantium expedita. Est corporis aut quod nam doloribus. Sunt suscipit maiores sit. Consectetur voluptatem aliquam dignissimos quidem ullam occaecati laborum."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 16], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Odit aut et officia deserunt. Et doloremque enim et. Consequatur rerum iusto.\nOmnis ut aperiam iusto delectus enim doloremque quisquam. Similique qui quis error. Labore tenetur consequatur consequuntur rem possimus. Molestiae dolorem dicta totam nobis non at sint. Aut autem deserunt eligendi et odio."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 16], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Quisquam eligendi qui qui. Est eveniet aut illum. Ut necessitatibus non placeat assumenda voluptas."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "quis qui nulla dolorem nihil"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Aut ipsum nihil saepe quae. Aut quo numquam eligendi. Culpa ut est quaerat. Earum laudantium dolores inventore accusamus.\nOdit cum non libero aliquid quo adipisci magnam. Similique ipsam cupiditate. Ex quod eaque praesentium hic qui. Odit quibusdam est et."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 17], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Odio et officia omnis tempore. Sit exercitationem odio esse provident tempora. Dicta aliquid nobis tempore. Quisquam molestiae sed voluptatem. Est nisi quasi perferendis.\nFacere in quia quo tenetur et. Esse quibusdam ipsum voluptates pariatur nemo et. Ut molestiae tenetur dolore iste a ut. Amet inventore molestias deserunt dolorum. Reprehenderit et inventore consequatur non qui."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 17], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Et qui doloremque ut quia exercitationem sint vel. Est quibusdam labore ullam dolor. Id praesentium dolorem labore quae. Minima voluptatem nobis est nam omnis vel."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 17], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Incidunt consequatur voluptas optio. Doloremque totam eum tempore vero debitis accusamus voluptates. Alias facilis laboriosam. Libero iure facilis pariatur quisquam optio explicabo. Facere in commodi totam quae."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 17], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Aut recusandae similique. Sapiente quia suscipit repellat sit impedit eveniet accusamus. Voluptates necessitatibus est est ad non. Ducimus vitae numquam odit sequi nihil.\nTemporibus facilis consequuntur. Dolorum sapiente suscipit atque quis eaque nam. Harum dolore possimus dolor. Eos consectetur iure minus eius sunt ea esse. Dolorem ut eum nesciunt ullam."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 17], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Laudantium magnam assumenda voluptatem sunt soluta. Necessitatibus error quos. Magnam occaecati aut ut deleniti eveniet velit dolorem."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 17], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Porro in sapiente officiis delectus est ducimus qui. Ea excepturi autem sit autem quis. Deleniti et nisi molestiae dolores modi iusto numquam."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 17], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Et quis sunt rem in. Reprehenderit doloremque modi est repellendus pariatur ex. Totam optio harum inventore ullam eos sit. Odio animi impedit doloremque qui non a est.\nVoluptatum enim et molestiae magni quas. Beatae cupiditate labore error dolorem commodi velit. Est animi numquam dolorum est omnis est."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 17], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Est nesciunt qui quisquam. Omnis dolor eveniet rerum. Est reiciendis tempore exercitationem repudiandae eaque doloremque debitis. Praesentium incidunt nam aliquam voluptatibus quis."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 17], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Illo voluptate quos incidunt. Molestiae ea in necessitatibus nulla rerum omnis quam. Neque repellat expedita occaecati. Quia est repellendus perspiciatis.\nExpedita quia ducimus aut dolor. Sint sed et amet et. Nam dolor repudiandae veritatis quo nihil harum. Explicabo et culpa doloribus. Ut ab quas aliquid veniam eum velit.\nVeniam iste rerum consequatur doloremque quo aperiam autem. Voluptas fugit mollitia reiciendis blanditiis voluptates. Dolorem qui unde molestiae aut modi. Praesentium reprehenderit quia fuga. At voluptates deserunt.\nQuae quam aperiam minima similique voluptatibus necessitatibus assumenda. Tenetur eos et et. In vel architecto ipsum minus voluptate. Amet laudantium accusamus. Expedita ex eos."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "at et occaecati cumque"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Aperiam voluptatibus consequatur. Qui omnis quia velit veniam. Suscipit eum nesciunt rem ipsam et ut et. Eaque perferendis dolorem quod iste. Voluptatem aut vel aut sed provident iusto quasi.\nAt necessitatibus eos reiciendis qui a sint sit. Quia magni voluptas tenetur excepturi id. Et aspernatur qui qui fugiat incidunt et neque."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 18], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Dolor quo fugiat minima molestias. Earum quam accusamus. Commodi voluptatum ut enim. Aperiam esse itaque quia voluptatum et porro nam."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 18], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Minus odio voluptatem. Ullam id eum fugit quae culpa saepe aut. Quidem ut sint quos consequatur sed non."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 18], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Cumque quod provident molestias cum officia et. Aliquid tempore quo consequuntur. Rerum quasi dolorum necessitatibus reiciendis amet dolorem velit. Quidem qui dolorem tenetur. Ipsum quaerat vitae est est assumenda sapiente eius.\nAperiam maxime delectus ut earum nisi. Ut explicabo dolor et eum aperiam laboriosam. Assumenda vitae sit sit ipsam mollitia. Commodi sunt necessitatibus harum ipsa totam quam pariatur. Cum dicta iste ut id nobis non dolores."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 18], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Ut iste est omnis rerum perspiciatis vero omnis. Perspiciatis et et voluptatum aut. Mollitia nihil explicabo et maxime repellendus. Quo ut sequi consequatur veniam aut temporibus. Consectetur quidem esse ducimus adipisci sunt dolor.\nAlias consequuntur cum perferendis ducimus. Qui rem adipisci expedita eaque consequatur nam blanditiis. Aut quo numquam cumque error tempore minima. Sint sunt dicta sit maxime voluptates."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 18], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Consequuntur qui eum. Accusamus eaque ducimus molestiae aperiam. Neque voluptatem tenetur voluptates suscipit quia illo. Cupiditate recusandae illum mollitia earum eius. Adipisci sed ut dicta sapiente.\nEius eos voluptatem odio consectetur. Eum consequatur perferendis ut rerum in maiores magnam. Dolor aut amet enim. Quis culpa nesciunt quia laborum quidem. Reprehenderit eaque non et."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 18], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Eaque voluptatem ea non est perferendis delectus animi. Assumenda facilis enim. Officiis enim aliquid sit consectetur dolor et ut.\nSint quae cupiditate eos architecto quis adipisci aliquam. Sunt alias dolore animi optio placeat. Quis quas reiciendis est qui non. Ea dolorem qui et voluptates consectetur corrupti."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 18], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Possimus et cum quo qui. Aliquam voluptatum est. Optio rerum labore corporis consequatur. Dicta fugit doloribus nihil soluta.\nDolore adipisci dolorem dolores rem aut doloribus. Molestias et laudantium debitis ex neque magnam. Modi rerum et dolorum officiis magnam aliquam. Quis et ab ut facilis. Qui similique consequuntur et rem aut vero."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 18], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Expedita amet temporibus incidunt delectus. Doloribus esse similique harum nisi voluptatem. Quibusdam adipisci inventore voluptatibus similique. Nihil est deserunt quaerat.\nQuia illo facilis et culpa voluptatem distinctio recusandae. Voluptatem facilis ipsam. Unde harum optio. Voluptatibus quas rerum est debitis distinctio aperiam."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 18], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Dolorum amet dolor eos suscipit quaerat soluta. Voluptatum temporibus molestiae consequatur architecto nisi quo dolores. Et at a quia voluptas.\nNon perspiciatis qui atque quae sunt praesentium reiciendis. Nihil explicabo quidem autem non quis perspiciatis. Et qui sapiente non et voluptatem tempore numquam. Et perferendis sint eum magnam et.\nEnim voluptas quis sapiente nobis qui natus. Repudiandae et vel occaecati error voluptatum voluptate necessitatibus. Facilis veniam delectus voluptatibus ad necessitatibus. Reprehenderit quis fugit.\nQuis odit minus earum distinctio. Ex fuga inventore eum quo alias. Nam facere officiis. Quas nostrum ullam. Voluptatem ullam quidem numquam nihil culpa."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "velit"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Suscipit aut quia. Qui totam quia nobis in corporis alias. At sunt eaque laudantium. Quia aut consectetur expedita voluptas.\nId sint est nostrum voluptas cum quae. Ut nulla molestiae voluptas repellendus officiis velit. Consectetur in voluptas ratione praesentium. Laborum dignissimos voluptatum."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 19], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Ut autem possimus. Non maiores autem velit eos. Consequatur et id sapiente sit non. Sed rem deleniti. Enim itaque reprehenderit ut suscipit.\nId est et. Sit et sint debitis iusto. Dolore architecto ut. Magnam inventore amet nam qui sit est. Occaecati qui sit."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 19], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Et incidunt excepturi. Dolorem officiis sapiente. Voluptatem magnam odit id consequatur voluptatibus tempora sed. Rerum voluptas cumque sunt."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 19], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Numquam id inventore quia ducimus. Sed quia amet qui et delectus aspernatur. Qui laudantium consequatur aut illum reiciendis. Sit perspiciatis quidem aut facilis.\nNihil sit omnis laborum. Nostrum quo quisquam tenetur autem non doloribus. Sed dolores et."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 19], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Ut officia atque. Temporibus iusto omnis autem. Nobis repudiandae eveniet quis. Minima omnis aliquid dolores neque facilis sit.\nVoluptate autem magnam molestias. Qui nihil doloribus laborum est numquam rerum. Est vel omnis nemo. Impedit necessitatibus et id aut in. Deleniti adipisci autem eaque."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "voluptatem eligendi repudiandae possimus est"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Voluptas ut similique dignissimos perspiciatis minus deleniti. Veritatis qui quas odit vero aut atque molestiae. Unde possimus placeat provident. Dolore at cum quia molestiae rem distinctio."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 20], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Temporibus asperiores modi aut. Officiis quos aut voluptatem ullam. In vero animi dolorem minus asperiores. Dolor ut ipsum."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 20], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Nesciunt omnis vitae harum. Tenetur quae sit necessitatibus neque sunt perspiciatis consequatur. Qui sunt asperiores.\nMinima aut et repellat. Libero blanditiis ut temporibus fugit ut quod. Et non sed nihil officiis esse qui. Pariatur corporis non rem hic earum."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 20], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Voluptatem nulla vel cumque iusto. Velit sed quia aut quo ullam. Assumenda ut quia sit molestias quis odit.\nEt et consequuntur recusandae harum tenetur rerum accusantium. Aut sed veniam sit dicta praesentium. Culpa repellat reiciendis eos natus. Sed illo assumenda aut exercitationem vitae rerum. Reprehenderit autem omnis."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 20], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Odio tempore deserunt ut aut. Maiores optio quisquam. Distinctio non assumenda.\nEst delectus facilis quia ratione adipisci et. Asperiores commodi eligendi voluptas non accusamus. Ab reprehenderit iste ut mollitia accusamus modi."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 20], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Eaque fuga in ratione facere nihil omnis dolor. Qui nihil aut minima. Voluptatum dolor cumque.\nExpedita hic facere voluptatem. Placeat et quia impedit repellat modi commodi. Dolor dolores fugiat dolorem laborum tempora et."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 20], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Deserunt molestiae corporis. Nulla explicabo eum molestias eius accusantium ut placeat. Dolores aut debitis esse qui."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 20], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Voluptas tempore sequi accusantium est. Ut consectetur quae in error accusamus qui. Ut doloremque error asperiores consequatur.\nOfficiis dolores consequatur. Ut et numquam autem voluptatum perferendis velit qui. Est qui molestias iste odio repudiandae optio quia. Sunt qui molestiae possimus."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 20], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Nihil autem libero neque ratione. Velit nihil eveniet unde. Praesentium rerum commodi recusandae qui consequuntur velit natus. Id veniam labore eum et est sunt quos. Voluptatem aut asperiores qui molestiae praesentium tenetur.\nCulpa eligendi in dolores perferendis. Quia repellat iusto voluptatem animi porro rerum. Ut aliquam et et totam accusamus necessitatibus id. Enim quidem voluptates asperiores."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 20], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Temporibus magnam occaecati id consequatur. Veniam quae placeat adipisci a. Molestiae assumenda maxime possimus numquam.\nCumque saepe aut. Soluta quia mollitia nulla aliquid nobis. Laboriosam magni eaque. Eaque aut velit dolores iusto eum. Libero omnis ad nostrum fuga et at."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 20], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Repudiandae sint ut sed quia. Voluptatum ipsa a. Et cupiditate asperiores rerum. Odit culpa voluptas quis.\nIn enim est. Alias numquam laboriosam est aut. Quidem ipsam laudantium et velit.\nFacere vel qui dolores ex officiis. Porro ipsum amet modi. Accusamus et earum."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "et ut aliquam id facilis distinctio eaque perferendis consequatur animi"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Molestiae est doloribus laborum ipsum qui. Omnis et consequatur eum consequatur. Deleniti quasi quaerat aliquam saepe aut ratione sunt.\nPariatur sunt unde eos ipsum cupiditate iusto. Ab officiis tempora ipsam hic consequatur sit. Consequatur dolor officia."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 21], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Voluptatem est molestiae hic aliquam placeat sunt. Quisquam asperiores rerum. Ad eligendi perspiciatis eos.\nRerum atque omnis. Autem sunt dolores iure doloribus velit culpa. Inventore in vitae quia fugit earum corrupti aliquam. Quia in sed. Pariatur minima voluptate placeat qui."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 21], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Voluptate voluptas eaque veritatis. Illo fuga dolores libero est vitae dolorem. Expedita mollitia inventore beatae sit eligendi enim ullam."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 21], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Asperiores quo in excepturi quisquam porro error. Aut veniam ea aspernatur voluptatum aut. Ut ipsa ducimus nulla quisquam similique veritatis magnam. Nihil dolores quod illo necessitatibus nostrum.\nSunt totam laborum. Dolore quis sit molestiae. Ipsam voluptatem deserunt nihil sint fugit. Non cum sit voluptatem facere ullam."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 21], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Quaerat est pariatur sunt cumque nostrum id. Delectus est sit maxime dolores sit nulla nobis. Sed nisi quia. Reprehenderit maxime necessitatibus impedit. Animi iste iure quaerat rerum pariatur."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 21], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (3.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Vel dolorem mollitia esse impedit quod dolorum odit. Quaerat quam cum earum pariatur. Ut id rerum fugiat alias sit sed debitis. Error occaecati eaque.\nVoluptatum sapiente odio eveniet quis id perspiciatis. Sed est officiis voluptate. Recusandae minus odio assumenda autem ipsa soluta. Pariatur minima voluptas perferendis animi non dolor et. Ad earum facere laboriosam maiores distinctio."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 21], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Dicta voluptatem qui voluptatem in nulla nisi consequuntur. Eius ullam autem est. Quia qui labore neque ipsam id quis."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 21], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Necessitatibus dolore facere ratione totam molestiae qui. Ad illo dolores molestias itaque qui nulla enim. Sed delectus est non.\nEx doloribus tempora. Repellendus praesentium eveniet rerum est impedit. Ipsum laboriosam facere qui voluptas accusantium. Sit perferendis illum soluta et enim ex reprehenderit. Eaque totam quae accusantium."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 21], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Quia amet aut. Et et dolor. Illum sit deleniti qui sed est. Sunt possimus quam officiis pariatur eius vel. Optio autem natus iusto consequatur reprehenderit omnis corrupti.\nPerspiciatis voluptatem minima dolore inventore pariatur quod. Voluptatibus quia quae provident impedit molestiae. Dolor repellat molestias consectetur eaque inventore rerum. Voluptatum dolores delectus voluptas.\nQuis natus expedita doloremque. In facilis enim debitis quaerat. Est aspernatur velit.\nQuis cupiditate excepturi occaecati perferendis. Corporis inventore non nam. Magni vel ad neque. Consequatur voluptatum est aut."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "reiciendis"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Illum voluptatem ut consequuntur blanditiis cum odit excepturi. Recusandae voluptatem ut harum quibusdam quod. Quisquam in est commodi ut nostrum. Repudiandae sed soluta occaecati necessitatibus repellendus rerum non. Consequuntur fuga ex minus labore.\nMaxime animi tempore dignissimos. Ipsum et aspernatur a dolores fuga labore. Dolorum asperiores tenetur temporibus voluptas vitae nam. Voluptatem possimus eius suscipit laudantium perspiciatis aut iste."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 22], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Tempora dolor consequatur est sunt illo. Eum quis incidunt. Est eos dolorem cum voluptate. Eligendi et et aut quia."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 22], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Excepturi eveniet alias quos saepe est quam repellendus. Pariatur qui laborum dolorem voluptatibus iste. Repudiandae aut asperiores. Dolore amet cum ut in nihil quas. Sunt iste id voluptatem perferendis deleniti ut."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 22], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Et error temporibus adipisci nobis laborum. Amet et earum velit nihil placeat qui. Voluptatem rerum rerum sint. Sunt earum ab quisquam. Quasi est autem."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 22], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Numquam aperiam molestiae. Veniam alias corrupti consequatur tempora. Est iusto perferendis assumenda deserunt consequatur optio.\nVeniam nemo ut nihil impedit. Voluptatibus amet quidem illo. Sunt unde odio harum sapiente. Aliquid non eos porro ipsa illo illum nam."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 22], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Molestiae ad cum dolores harum praesentium veniam optio. Eum qui aut eveniet occaecati nihil dignissimos. Consequatur nemo dolorem.\nMinus exercitationem expedita fuga reprehenderit fugit omnis. Et quas itaque molestiae quam. Laborum culpa ut sunt aliquid illo est. Ratione amet dolorum magnam saepe. Officia exercitationem cumque pariatur dolorem tenetur."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 22], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Explicabo quam et enim culpa. Ipsum porro est sed commodi quisquam ut. Nihil corrupti consequatur unde repudiandae."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 22], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Vel voluptas ea nesciunt impedit. Atque occaecati voluptas fugiat rem accusamus velit. Sed corporis et sit. Nihil quia quasi facilis doloribus error.\nQui omnis nostrum distinctio est facilis consectetur. Aspernatur eos atque praesentium quia nobis sint. Ut quaerat deserunt placeat quasi numquam ut dolorem."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "incidunt non repellat placeat officiis voluptatem soluta aliquam dolorem velit"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Nihil illo ducimus et dolorum quidem rem. Occaecati voluptatem ut neque eum ut. Aut placeat recusandae. Dolores explicabo inventore sit consequatur consectetur neque adipisci.\nRepellat voluptatem labore et atque totam qui. Placeat quos impedit eligendi magnam veritatis eaque non. Labore similique adipisci est."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 23], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Consequatur aut harum neque qui officia. Quo labore dicta aperiam in consequuntur. Architecto ea laudantium."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 23], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Incidunt nobis eligendi architecto modi tenetur tempora. Itaque hic necessitatibus incidunt rerum nostrum veritatis. Possimus voluptatum inventore in. Non voluptatem possimus aspernatur consequatur dolore.\nVoluptates illum recusandae perspiciatis quasi labore. Enim nisi minus qui sequi. Est magnam pariatur laudantium delectus. Repellendus reiciendis magnam eaque in ea. Nihil nesciunt fugiat aliquam eveniet."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 23], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (2.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Dicta earum architecto minima saepe et cumque. At ullam maxime et. Maiores reiciendis dolores fugiat.\nAb sunt aut voluptatem. Sit magni vel enim. Nihil rerum beatae labore doloremque et aut possimus."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 23], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Consequatur ratione nemo saepe. Ut occaecati sed ab ipsum excepturi. Consectetur vitae est molestiae hic eaque quisquam."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 23], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Voluptas exercitationem hic qui sed quibusdam eum voluptas. Cumque deserunt ea enim a excepturi dolor aut. Nihil sit aut."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 23], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Dolor eligendi consequatur et. Enim voluptatem non quibusdam eligendi. Laboriosam iure sed incidunt. Non unde modi animi natus. Quis rerum est.\nQuaerat voluptatem vel ab. Libero quis nostrum tenetur deleniti consequatur. Dolor sit quo.\nEt vitae eum velit voluptatum veniam. Iusto odit ratione repellat sequi corrupti. Quia et est nam dolore eos itaque. Odio quasi dignissimos ducimus repudiandae."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "quo et debitis"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Quasi autem assumenda quas libero sint perspiciatis. Dolor nesciunt error voluptatem dolor. Ut aut in aut. Fuga deleniti molestiae dolorem quia vel harum possimus."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 24], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Non eos aut quam rerum culpa architecto enim. Eos et itaque dolorem molestiae accusantium tempora dolor. Quia et natus et voluptates. Rerum quis labore architecto. Velit qui dolores nemo quia aliquam eligendi incidunt.\nUt aut incidunt. Dolorem quidem sit. Et ea necessitatibus ipsam fuga praesentium eum. Necessitatibus illo est exercitationem incidunt sit."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 24], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Ea nihil quae hic. Est tempora aut minima modi. Modi qui eos autem. Voluptates porro sunt autem excepturi ea voluptas.\nNam corporis exercitationem architecto omnis ut. Alias nihil dolor qui. Aperiam fugiat corrupti quasi. Dolor autem deleniti dolor et minima sit."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 24], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Quos molestias sit quod. Rerum qui aut et. Ipsum ipsa fugiat molestiae."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "amet et qui quibusdam sunt"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Illum dolor voluptatibus omnis aperiam exercitationem earum. Libero veniam rerum soluta eum voluptas dolor. Est eaque qui. Exercitationem provident error.\nRecusandae incidunt harum quam. Fugit praesentium tempora ad qui. Unde culpa velit repellat a explicabo natus. At est eos aspernatur."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 25], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Doloremque quia ipsum illum harum ducimus totam aliquid. At ipsam voluptas voluptas quibusdam. Voluptates ullam quaerat a omnis. Aut sint est illum ex perspiciatis. Blanditiis voluptatem tenetur et asperiores."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 25], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Accusantium eos reprehenderit eaque aspernatur. Nobis suscipit aperiam consequatur adipisci magnam omnis. Aut qui nihil in eum."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 25], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Reiciendis odit eaque facere. Vel cumque dicta unde. Qui expedita aut."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "minus itaque blanditiis nobis quos dignissimos officiis"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Dolor non accusamus tempora doloribus. Commodi in voluptate et voluptas voluptatem sed ea. Est qui blanditiis molestiae libero dignissimos dolor qui."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 26], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Enim eos hic animi ut. Sunt aliquid debitis nihil quis. Recusandae a harum.\nMolestiae ab esse magnam est. Error corrupti ducimus earum fugit aut unde. Unde quod enim ex aspernatur omnis cum."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 26], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Consequatur expedita enim quasi non ipsa ea. Quae et voluptatem. Aut aperiam aut reiciendis ea.\nPerspiciatis consequatur neque est voluptatem. Odit quo magni. Nam voluptas aut recusandae. Quis incidunt eum qui molestiae aspernatur."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 26], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Alias ipsam nulla dolorem perferendis. Vel et quod provident et deleniti dolore. Est impedit dolorem eligendi explicabo aut reprehenderit. Amet officiis quasi optio iste. Repudiandae in et consectetur et odio similique sint."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 26], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Id voluptatem possimus et. Et aliquid qui. Omnis quos adipisci nam aut non tempore et."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 26], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Vero libero fuga molestiae delectus dolore est ex. Blanditiis aut optio voluptatem similique possimus. Ut vel assumenda amet omnis dolorum minus quis. Et dolorum voluptatum dolores maxime. Qui ullam eius."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 26], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Consequatur accusamus natus corporis aut id qui. Voluptas magni molestiae quaerat. Aut dolores ullam culpa aliquid et. Inventore repudiandae architecto corrupti quidem placeat ex omnis. Est natus facilis nihil voluptate.\nEsse rerum nobis sapiente. Aut eaque vel. Voluptatum mollitia qui maiores quo accusantium voluptates error."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 26], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Alias cumque sapiente facilis recusandae enim et. Enim fuga magni qui. Tempore incidunt consectetur accusamus. Illo nihil ullam.\nFuga beatae qui ut et. Neque commodi a natus. Dolores quidem nesciunt rerum doloribus. Qui quia et modi. Eum pariatur sequi corrupti qui provident.\nUt molestiae dolorem architecto possimus provident officia optio. Est quisquam odio molestiae. Laboriosam animi commodi ratione accusamus cumque nesciunt illum.\nQuaerat libero eligendi et voluptatem est perferendis. Quae saepe sunt deserunt laboriosam. Velit nisi beatae itaque numquam non. Id quas et quia in veniam nemo. Dignissimos quia qui magnam nihil quas necessitatibus."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "nam harum ratione"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Rerum quam quasi velit voluptas iste culpa quisquam. Adipisci autem repellat. Quam laborum cumque qui autem et. Soluta sapiente ex quas qui ab molestiae. Sed veritatis hic alias et nam non et."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 27], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Exercitationem delectus corporis occaecati et est. Similique hic architecto ratione molestiae. Magnam accusantium ea voluptatem enim impedit assumenda. Est tempore distinctio. Porro adipisci ipsam consectetur ut repellat aliquam.\nNihil velit molestias. Voluptatum alias nihil laborum. Repellat qui qui minima ut ipsum est. Molestiae voluptatum sit cum. Dolorem saepe id consequatur ducimus."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 27], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Iste repellendus ad placeat fugit quo fuga. Numquam dolorum at maxime magni pariatur illo adipisci. Adipisci aspernatur rem aliquam et consequatur voluptatem consequuntur. Consequatur omnis atque maxime voluptatem mollitia dignissimos. Mollitia quis omnis quia eos perspiciatis.\nEsse nesciunt consequatur sed nemo. Laudantium necessitatibus consectetur cupiditate. Non quisquam perferendis velit quo. Rerum aut molestiae et eveniet iste."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 27], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Aut accusantium aspernatur. Ut non velit aut at. Ut enim temporibus repudiandae modi. Praesentium quia nisi. Aut vero accusamus.\nEt sed assumenda voluptatem. Dolorum unde aspernatur modi a similique asperiores. Alias facere eius quia. Inventore aut iste. Ducimus expedita atque velit commodi sit."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 27], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Sint in dolorem exercitationem. Optio aut sit doloribus sed delectus accusamus. Animi tempora libero minima. Et error quis dolorum necessitatibus at est. Sunt repudiandae animi laudantium omnis."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 27], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Hic molestiae accusamus vel debitis. Consequatur voluptatem sunt et nemo voluptatem est. Ut aut qui repellendus.\nMaiores quas ex. Et sed voluptatum facere corrupti laborum officia molestiae. Explicabo sunt architecto."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 27], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Id nobis omnis ea aspernatur ducimus fugiat qui. Ut unde sequi aut quo veritatis. Sequi ut vero aut voluptatem magnam inventore excepturi. Facilis ipsum et sed sunt consequatur est adipisci."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 27], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Natus sunt molestiae. Odit ullam occaecati dolor aut excepturi consectetur. Ducimus alias ab ut. Aut quasi quos accusantium sint aperiam ad ut. Voluptas perferendis ipsa suscipit ea.\nMaxime expedita aut exercitationem et modi. Laborum molestiae harum unde. Facere et ipsam consequatur nemo eum sint ea. Ullam harum dignissimos quasi illo molestiae ea magnam."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 27], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Iste delectus rerum. Harum et eos aut ab alias. Voluptatem quos et nesciunt omnis alias. Nostrum enim a saepe tenetur ea ipsa. Nihil pariatur et quasi soluta quae.\nEt voluptatem iusto voluptatum. Odit deleniti aut a dolorum accusamus error. Enim sunt aliquam quia laboriosam. Nam beatae illum voluptatum. Vel nesciunt non corporis."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 27], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Maxime inventore perspiciatis qui. Suscipit architecto dignissimos aut repudiandae qui. Omnis natus fuga deserunt vero. Repudiandae ut harum maiores.\nDicta libero consequuntur ipsum. Id laborum ut ad impedit. Atque est perferendis totam quam a quibusdam odio."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 27], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Cum voluptas quia mollitia. Voluptatem unde ipsam aut voluptatum excepturi omnis porro. Deserunt tempore facilis temporibus necessitatibus velit.\nConsectetur quia consequatur sapiente quas cumque provident. Assumenda voluptate rem sed officia qui temporibus. Reprehenderit fuga quia atque est maxime.\nQuae reiciendis vero. Voluptatem doloremque natus laudantium totam similique explicabo. Quia animi quidem. Quis error sit est.\nVel accusamus est nobis. Sapiente ducimus ratione exercitationem mollitia quibusdam. Velit nihil tempora perspiciatis rerum labore commodi. Dolor sequi similique molestiae."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "aperiam et rerum nihil nostrum animi omnis pariatur similique"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Ipsam sit quos doloribus. Quibusdam eaque et expedita aspernatur. Consequatur sit ea fugiat necessitatibus laudantium minus et. Veritatis possimus voluptatem vero provident."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 28], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Quasi voluptatem tempora voluptatibus quia aliquam maxime. Quasi velit et. Ipsum velit praesentium totam aut tempore placeat sed. Nihil incidunt qui."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 28], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Quis in dolorem excepturi fuga. Vel sint adipisci. Labore aut debitis illo ea. Natus amet reiciendis."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 28], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Officia sit voluptatum debitis est. Sit distinctio aut ex harum esse et voluptatum. Molestiae eveniet porro. Alias laudantium perspiciatis. Culpa est beatae temporibus quia.\nSimilique reprehenderit libero cum. Nihil reprehenderit sed voluptatem. Non aut voluptates autem. Culpa magni voluptas dolores laborum ipsam voluptate explicabo. Ex ea provident."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 28], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Quia qui vel. Et impedit voluptatum. Earum ut hic magni similique. Consequatur a rerum.\nIure in sed voluptatem ducimus. Officiis quis ut asperiores repellat ut. Et id architecto. Velit necessitatibus est architecto et a non quidem."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 28], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Eligendi vero nihil a autem. Ab fugiat asperiores cumque eaque fuga sed qui. Iste praesentium autem ut. Saepe vitae velit earum doloribus commodi amet natus.\nReprehenderit doloribus corporis non tempora. Distinctio molestiae sed reprehenderit. Officia omnis est ut quas expedita."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 28], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Magni officia neque. Quis sit odio laborum nisi quidem et. Libero repellendus perspiciatis fugit. Quidem nesciunt expedita rerum dolores qui molestiae dolorem. Enim sed dolorem."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 28], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Et veritatis qui. Porro suscipit vel ipsa aut id nostrum. Ea iste occaecati perspiciatis."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 28], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Debitis quia quia qui est. Non blanditiis est quos. Voluptates cumque dolorum et aspernatur aliquid optio.\nMinus totam harum quod eligendi sint eos possimus. Et aut praesentium quaerat pariatur ut. At odit ratione consectetur."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 28], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Nam dolores vitae aliquid ea maxime. Officia est magni est dolore omnis. Et ipsa dolorum voluptatem sunt. Sunt quos nemo.\nArchitecto eos laboriosam aut. Ratione consequatur quod ipsa nulla. Blanditiis odit officia."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 28], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Molestias tenetur quibusdam. Enim consequatur aut officiis consequuntur eos omnis corrupti. Qui nihil error aut dicta qui. Aut rerum repellendus et. Expedita perspiciatis laudantium tempore.\nOdio eaque quasi et architecto repellat vel. Recusandae minima nihil et eos soluta maiores. Ad dolore et velit nisi. Dignissimos molestiae quis consequatur qui dolores fugiat. Consequatur eius ullam.\nNumquam qui est dolor illo. Incidunt voluptatibus sint consequatur. Consequatur aliquam repellat fugiat."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "sapiente nesciunt quia cumque voluptatibus"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Velit nisi pariatur cum beatae. Id labore optio dolores. Harum iste velit culpa nostrum iure. Voluptatibus cum dolores impedit eum ea. Dolor inventore accusantium eius rerum."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 29], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Error tempora itaque laudantium distinctio occaecati. Voluptate voluptatem nisi molestiae est blanditiis. Alias accusamus aut est cum numquam incidunt. Velit quibusdam amet blanditiis minima. Sed nam non qui et neque explicabo.\nOfficia qui cumque nostrum. Fugit odit enim eaque fuga sint. Itaque sit qui aut. Molestiae laborum et aut repellendus voluptatem ducimus optio."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 29], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Consequatur voluptatibus autem officiis sit. Voluptatibus aut quibusdam quia dolor aliquam. Quis explicabo velit facilis provident."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 29], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Quas animi doloremque quisquam doloribus alias ullam veniam. Aspernatur ut eius perspiciatis. Enim modi maiores fugiat facilis molestiae quo corrupti. Optio dolores earum doloremque. Incidunt fugit nam autem velit doloremque aut molestias."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 29], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Ad aliquid dolorem. Id et quo quia exercitationem voluptatem. Aut fugiat provident doloremque dignissimos nisi. Rem perferendis rerum vitae ea necessitatibus. Incidunt labore ut aspernatur neque in nihil.\nSed voluptas est et. Sint culpa qui neque et dolorum. Modi et consequatur et ut laudantium nam consequatur.\nPlaceat ratione aut soluta sed incidunt et. Dolores eos neque necessitatibus aperiam omnis beatae. Ratione tempora qui rerum voluptatem est id. Officiis et qui recusandae dolor consequatur dolorem.\nEos repellendus voluptate qui velit corporis temporibus quasi. Aut quas vitae. Qui labore a accusantium commodi consequatur et."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["title", "voluptatibus itaque et velit ipsam quod"], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Voluptatem est voluptatibus id esse eos cumque hic. Magnam aut officiis repellat est quo ab illum. Maiores enim aut non. Rem ratione modi sint id sunt.\nCulpa modi ex vitae autem. Qui et enim nobis voluptate eum. Omnis aut repellendus et. Error distinctio quos et autem rerum aut dolores."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 30], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Dolorum qui aut reiciendis nostrum consequatur nemo. Accusamus et quisquam. Aliquam doloremque vel amet voluptatem repellendus iure nisi. Nostrum quaerat sit omnis consequatur dolor.\nDolore in non iusto blanditiis ut quas autem. Voluptatem ab voluptatem. Debitis itaque quo est eius voluptas in laborum. Exercitationem quis laborum. Ipsam voluptatem est quia sed ut qui."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 30], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Aspernatur et illo atque culpa ut dicta temporibus. Et amet eum. Magnam est ipsam et ut nisi iusto et. Qui soluta quibusdam laudantium qui. Qui enim iusto sunt occaecati quis rem amet.\nSunt ut dignissimos omnis magnam deserunt modi architecto. Delectus recusandae ipsum non consequatur. Occaecati doloremque qui adipisci sit. Praesentium et temporibus nesciunt cum numquam harum. Quia sit aut commodi inventore magni dolore maxime."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 30], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Est ratione pariatur tempore. Id fugit non atque earum sunt et quas. Dolores modi sequi architecto eum. Nisi perspiciatis beatae laudantium excepturi harum adipisci. Quos sit maiores architecto id."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 30], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Sed et reprehenderit minus velit. Ut in amet sed. Unde maiores dolores repellat voluptas."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 30], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Sit vel qui est omnis cumque dolorem. Atque voluptatem ut magni dolorem. Voluptate culpa ut accusantium sed at error."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 30], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Repellendus id magni ipsam nobis. Tempora sunt sit in sint animi eveniet non. Et ea eos ullam. Dolore molestiae molestias ipsam modi et dolorem minus."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 30], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Cupiditate similique asperiores eius incidunt ex beatae. Sint nesciunt explicabo tempore fuga quod tenetur atque. Repudiandae cumque facilis nihil quis."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 30], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["body", "Quo cumque sed veniam inventore distinctio. Rerum incidunt occaecati ut quisquam sapiente et voluptas. At ut sit magni. Voluptas et consequatur laudantium voluptatem velit dicta.\nDolor perspiciatis aut porro rerum voluptatum ratione. Quibusdam exercitationem in. Repudiandae et aliquid ipsa. Nihil consequuntur est omnis dolor maxime."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 30], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["body", "Facilis voluptatem aut cupiditate ut. Nam saepe consequatur ducimus dolores. Adipisci laboriosam dolorem."], ["created_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00], ["post_id", 30], ["updated_at", Mon, 24 Jun 2013 14:15:14 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "posts" 
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "comments" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-06-24 07:27:58 -0700
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (22.0ms)
+Completed 500 Internal Server Error in 169ms
+
+ActionView::Template::Error (Invalid CSS after "@import ": expected file to import (string or url()), was "bootstrap"
+  (in C:/Sites/code/bloccit/app/assets/stylesheets/application.css.scss)):
+    2: <html>
+    3: <head>
+    4:   <title>Bloccit</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__452488428_31164060'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (22.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePosts (20130619173519)
+Migrating to CreateComments (20130619173614)
+Migrating to DeviseCreateUsers (20130701164501)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (819.0ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "name" character varying(255), "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying(255), "last_sign_in_ip" character varying(255), "confirmation_token" character varying(255), "confirmed_at" timestamp, "confirmation_sent_at" timestamp, "unconfirmed_email" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (3.0ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (3.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35m (18.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130701164501')
+  [1m[36m (38.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
