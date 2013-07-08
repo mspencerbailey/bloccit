@@ -879,3 +879,58 @@ Migrating to DeviseCreateUsers (20130701164501)
   [1m[36m (38.0ms)[0m  [1mCOMMIT[0m
   [1m[35m (0.0ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (18.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePosts (20130619173519)
+Migrating to CreateComments (20130619173614)
+Migrating to DeviseCreateUsers (20130701164501)
+Migrating to AddUserToPosts (20130708154649)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (150.0ms)[0m  [1mALTER TABLE "posts" ADD COLUMN "user" character varying(255)[0m
+  [1m[35m (1.0ms)[0m  ALTER TABLE "posts" ADD COLUMN "id" integer
+PG::Error: ERROR:  column "id" of relation "posts" already exists
+: ALTER TABLE "posts" ADD COLUMN "id" integer
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (214.0ms)[0m  [1mDROP DATABASE IF EXISTS "bloccit_development"[0m
+  [1m[35m (175.0ms)[0m  DROP DATABASE IF EXISTS "bloccit_test"
+  [1m[36m (5105.3ms)[0m  [1mCREATE DATABASE "bloccit_development" ENCODING = 'unicode'[0m
+  [1m[35m (2375.1ms)[0m  CREATE DATABASE "bloccit_test" ENCODING = 'unicode'
+  [1m[36m (15.0ms)[0m  [1mCREATE TABLE "comments" ("id" serial primary key, "body" text, "post_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (2.0ms)[0m  CREATE INDEX "index_comments_on_post_id" ON "comments" ("post_id")
+  [1m[36m (11.0ms)[0m  [1mCREATE TABLE "posts" ("id" serial primary key, "title" character varying(255), "body" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (13.0ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "name" character varying(255), "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying(255), "last_sign_in_ip" character varying(255), "confirmation_token" character varying(255), "confirmed_at" timestamp, "confirmation_sent_at" timestamp, "unconfirmed_email" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (2.0ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (3.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130701164501')
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130619173519')[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130619173614')
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePosts (20130619173519)
+Migrating to CreateComments (20130619173614)
+Migrating to DeviseCreateUsers (20130701164501)
+Migrating to AddUserToPosts (20130708154649)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "posts" ADD COLUMN "user" character varying(255)[0m
+  [1m[35m (1.0ms)[0m  ALTER TABLE "posts" ADD COLUMN "id" integer
+PG::Error: ERROR:  column "id" of relation "posts" already exists
+: ALTER TABLE "posts" ADD COLUMN "id" integer
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
